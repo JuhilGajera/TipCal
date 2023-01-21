@@ -1,0 +1,44 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  background-image: url("1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  height: 85%;
+  width: 25%;
+  background-color: rgb(249, 246, 238);
+  color: rgb(141, 3, 49);
+}
+hr{
+  width: 60%;
+  color: black;
+}
+p{
+  margin-left: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+select{
+  margin-left: 50px;
+}
+button{
+  height: 50px;
+  width: 285px;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: x-large;
+  color:white;
+  background-color: rgb(141, 3, 49);
+  border-style: none;
+}
